@@ -5,7 +5,7 @@ const hbs = require('hbs');
 require('./hbs/helpers');
 
 const port = process.env.PORT || 3000;
-
+//nueva prueba
 //Hace público un directorio
 app.use(express.static(__dirname + '/public'));
 
